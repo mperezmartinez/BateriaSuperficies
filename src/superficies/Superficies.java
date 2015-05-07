@@ -89,7 +89,7 @@ public class Superficies {
     }
 
     /**
-     *
+     * Esta clase sirve para calcular las areas .
      * @param base le pasa la base de la figura
      * @param altura le pasa la altura de la fifura
      * @param radio le pasa el radio de la figura
