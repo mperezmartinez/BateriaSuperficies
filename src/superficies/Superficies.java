@@ -82,11 +82,12 @@ public class Superficies {
 
             float num1 = Integer.parseInt(JOptionPane.showInputDialog(null, "radio"));
 
-            contenedor.setBase(num1);
+            contenedor.setRadio(num1);
 
             contenedor.setArea(Superficies.realizaOperacion(0, 0, num1, contenedor.getFigura()));
 
         }
+        Vista.imprimir(contenedor);
 
     }
 
