@@ -76,4 +76,22 @@ public class Superficies {
         }
 
     }
+
+    public static float realizaOperacion(float base, float altura, float radio, int oper) {
+        float res = 0;
+        if (oper == 1) {
+            res = base * altura;
+        }
+        if (oper == 2) {
+            res = base * altura;
+        }
+        if (oper == 3) {
+            res = base * altura / 2;
+        }
+        if (oper == 4) {
+            res = (float)(radio * radio * 3.14159265);
+        }
+        return res;
+
+    }
 }
