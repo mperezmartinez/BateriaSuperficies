@@ -1,16 +1,13 @@
 package superficies;
 
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
  * Examen de MVC 3ª Avaliación
  *
- * @author damian
+ * @author Miguel
  */
 public class Superficies {
-
-    private static Scanner sc;
 
     /**
      * @param args the command line arguments
@@ -91,6 +88,14 @@ public class Superficies {
 
     }
 
+    /**
+     *
+     * @param base le pasa la base de la figura
+     * @param altura le pasa la altura de la fifura
+     * @param radio le pasa el radio de la figura
+     * @param oper pasa la operacion seleccionada para saber que calculo hacer
+     * @return res devuelve el resultado en cada uno de los casos
+     */
     public static float realizaOperacion(float base, float altura, float radio, String oper) {
         float res = 0;
         if (oper.compareToIgnoreCase("Cuadrado") == 0) {
