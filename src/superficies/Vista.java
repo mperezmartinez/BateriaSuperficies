@@ -13,7 +13,10 @@ import javax.swing.JOptionPane;
  */
 public class Vista {
     
-    
+    /**
+     * 
+     * @param obj pasa los valores de la clase modelo para poder hacer getters y recoger todos los valores antes pasados con setters
+     */
         public static void imprimir(Modelo obj){
         
   if (obj.getFigura().compareToIgnoreCase("Cuadrado") == 0){
